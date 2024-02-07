@@ -66,7 +66,7 @@ class ParkingGarage:
                 if payment:
                     print("Thank you, have a nice day!")
                     self.tickets.append(self.current_ticket["ticket_number"])
-                    self.parkingSpaces.append(self.current_ticket["parking_space"])
+                    self.parking_spaces.append(self.current_ticket["parking_space"])
                 else:
                     print("Payment not received. Please pay to exit.")
             self.current_ticket = None
